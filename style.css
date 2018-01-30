@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+  	overflow-x: hidden;
+}
+
+a {
+	cursor: default;
+	text-decoration: none;
+}
+
+.status {
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	color: #FFF;
+}
+
+.kocka {
+	height: 100vh;
+	width: 100%;
+}
+
+/* prva */
+
+.header {
+	background-image: url("./slike/uni2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+.nav-bar {
+	width: 80%;
+	margin-left: 20%;
+	background-color: white;
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+	z-index: 5;
+	border-bottom-left-radius: 50px;
+}
+
+.nav-bar ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav-bar li {
+	width: 25%;
+	display: flex;
+	height: 50px;
+	transition: 2s;
+	overflow: hidden;
+}
+
+.nav-bar li a {
+	margin: auto;
+	color: white;
+	cursor: pointer;
+	font-size: 150%;
+}
+
+.nav-bar li:hover {
+	background: white;
+}
+
+.nav-bar li:hover a {
+	color: black;
+}
+
+/* druga */
+
+.universum-div {
+	background-image: url("./slike/dumbell.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+.nav-bar-uni {
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	
+}
+
+.nav-bar-uni ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 50%;
+	width: 100%;
+	margin-top: 50%;
+}
+
+.nav-bar-uni li {
+	height: 20%;
+	display: flex;
+	margin-bottom: 10%;
+	border: 1px solid inherit;
+	transition: 2s;
+	border-radius: 20px;
+}
+
+.nav-bar-uni li:hover {
+	background-color: black;
+}
+
+.nav-bar-uni li:hover a {
+	color: white;
+}
+
+.nav-bar-uni a {
+	cursor: pointer;
+	margin: auto;
+	text-decoration: none;
+	font-size: 120%;
+	color: black;
+}
+
+.galerija1 {
+	height: 100%;
+	width: 75%;
+	position: absolute;
+	left: 100%;
+	transition: all 1500ms ease-out;
+  	-webkit-transition: all 1500ms ease-out;
+}
+
+.lokacija1 {
+	height: 100%;
+	width: 75%;
+	position: absolute;
+	left: 100%;
+	transition: all 1500ms ease-out;
+  	-webkit-transition: all 1500ms ease-out;
+}
+
+.o-nama1 {
+	height: 100%;
+	width: 75%;
+	position: absolute;
+	left: 100%;
+	transition: all 1500ms ease-out;
+  	-webkit-transition: all 1500ms ease-out;
+}
+
+.slike {
+	display: flex;
+	flex-wrap: wrap;
+	height: 80%;
+	width: 90%;
+	margin-top: 7%;
+	margin-left: 5%;
+}
+
+.slika {
+	width: 20%;
+	height: 25%;
+	margin: 2%;
+	overflow: hidden;
+}
+
+.slika img {
+	height: 100%;
+	width: 100%;
+}
+
+.map1 {
+	height: 80%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+.text1 {
+	height: 60%;
+	width: 35%;
+	margin-left: 20%;
+	margin-top: 10%;
+	font-size: 150%;
+	overflow: hidden;
+}
+
+
+.uni-classic {
+	background-image: url("./slike/unicla2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+.uni-classic-levo {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 200vh;
+	left: -100%;
+	background-color: yellow;
+	-webkit-transition: all 1500ms ease-out;
+}
+
+.uni-classic-desno {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 200vh;
+	left: 100%;
+	background-color: green;
+	-webkit-transition: all 1500ms ease-out;
+	z-index: 1;
+}
+
+.nav-bar-clas {
+	position: relative;
+	bottom: 0;
+	top: 90%;
+	left: 30%;
+	width: 40%;
+	height: 10%;
+	z-index: 2;
+}
+
+.nav-bar-clas ul {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	border-top-right-radius: 100%;
+	border-top-left-radius: 100%;
+}
+.nav-bar-clas li {
+	width: 33%;
+	background-color: teal;
+	display: flex;
+}
+
+.nav-bar-clas a {
+	margin: auto;
+}
+
+.kontakt-div {
+	background-color: red;
+}
